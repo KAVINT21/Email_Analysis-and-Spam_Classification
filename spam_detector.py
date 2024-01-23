@@ -35,10 +35,9 @@ def main():
     password = st.text_input("**Enter Password**:", type='password')
     model, v = model_deployment()
     if st.button("Submit"):
-        # user=user#"k7518991@gmail.com"
-        # password=password#"jxfv emwk gjbs fbwn"
-        user = "k7518991@gmail.com"
-        password = "jxfv emwk gjbs fbwn"
+       
+        user = user
+        password = password
 
         imap_url="imap.gmail.com"
 
